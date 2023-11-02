@@ -1,9 +1,15 @@
+
+
 import React from "react";
+import NavBar from "./Navbar";
+import Footer from "./Footer";
 
 export default function HomeScreen(){
     return (
         <>
-        <h2>no body here</h2>
+        <NavBar/>
+        <hr />
+        <Footer/>
         </>
     )
 }
